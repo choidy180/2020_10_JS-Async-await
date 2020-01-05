@@ -21,6 +21,8 @@ let hello = function(name) {
     
 }
 
+
+
 let syncHello = async function(name) {
 
     let result = await hello(name)
